@@ -17,7 +17,7 @@ Lab Report 1 - Week 2
 ![alt text](15lpt4lab1fin.png)
 
 ## Moving Fliles with scp:
-> Run the scp command: scp filename cs15lwi22zz@ieng6.ucsd.edu:~/ in the terminal of the directory inwhich the file is in. To check whether it coppied to the remote computer, connect to the remote computer and run the command ls. You should see the file in the home directory of the remote computer. 
+> Run the scp command: scp filename username@ieng6.ucsd.edu:~/(replace username and filename with your) in the terminal of the directory inwhich the file is in. To check whether it coppied to the remote computer, connect to the remote computer and run the command ls. You should see the file in the home directory of the remote computer. 
 ![alt text](15llab1pt5final.png) 
 
 ## Setting an SSH Key:
