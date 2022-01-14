@@ -1,6 +1,6 @@
-<h1 align="center" ><b>
-Lab Report 1 - Week 2
-</h1>
+
+# Lab Report 1 - Week 2
+
 
 ## Installing VScode:
 > Go to the VScode website: [https://code.visualstudio.com/](https://code.visualstudio.com/) and download VScode. Then install it following your operating system's instructions. Once installed and opened, you should see this: 
