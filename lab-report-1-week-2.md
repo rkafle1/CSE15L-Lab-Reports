@@ -7,7 +7,7 @@
 ![alt text](15Llab1.png)
 
 ## Remotely Connecting:
-> First download and install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) and find your [CSE15L account](https://sdacs.ucsd.edu/~icc/index.php). Then open a new terminal in the home directory in VSCode and type the comand: ssh username@ieng6.ucsd.edu, replacing username with your 15L username. After pressing enter, you should be asked for your password or be asked a yes or know question, which you should answer yes to, and then be connected to the remote computer.
+> First download and install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) and find your [CSE15L account](https://sdacs.ucsd.edu/~icc/index.php). Then open a new terminal in the home directory in VSCode and type the comand: ```ssh username@ieng6.ucsd.edu, replacing username with your 15L username. After pressing enter, you should be asked for your password or be asked a yes or know question, which you should answer yes to, and then be connected to the remote computer.
 <br> It should like this when you have connected
 ![alt text](15llab12.png)
 
