@@ -13,16 +13,16 @@
 
 ## Trying Some Commands:
 
-> On the remote computer, run comands like cd ~, ls, pwd, mkdir docs, and cd docs to see different commands executed. Then run the command "exit" to go back to your computer. Try runnign the same commands on your computer's terminal. 
+> On the remote computer, run comands like ```cd ~```, ```ls```, ```pwd```, ```mkdir docs```, and ```cd docs``` to see different commands executed. Then run the command ```exit``` to go back to your computer. Try runnign the same commands on your computer's terminal. 
 ![alt text](15lpt4lab1fin.png)
 
 ## Moving Fliles with scp:
-> Run the scp command: scp filename username@ieng6.ucsd.edu:~/(replace username and filename with yours) in the terminal of the directory inwhich the file is in. To check whether it coppied to the remote computer, connect to the remote computer and run the command ls. You should see the file in the home directory of the remote computer. 
+> Run the scp command: ```scp filename username@ieng6.ucsd.edu:~/```(replace username and filename with yours) in the terminal of the directory inwhich the file is in. To check whether it coppied to the remote computer, connect to the remote computer and run the command ```ls```. You should see the file in the home directory of the remote computer. 
 ![alt text](15llab1pt5final.png) 
 
 ## Setting an SSH Key:
-> On your computer, run the command ssh-keyben to create the public and private files and put in the suggested file path where it asks you to enter a file. Then enter in a passphrase(any short passcode) and reenter it. Then to check it, try the scp or ssh command and you should be asked to enter the short passcode the first time, but you shouldn't be aksed to inter your full account password. 
+> On your computer, run the command ```ssh-keyben``` to create the public and private files and put in the suggested file path where it asks you to enter a file. Then enter in a passphrase(any short passcode) and reenter it. Then to check it, try the ```scp``` or ```ssh``` command and you should be asked to enter the short passcode the first time, but you shouldn't be aksed to enter your full account password. 
 ![alt text](15llab1pt61.png)
 ## Optimizing Remote Running:
-> Personally, I find that the fastest way to run commands remotely is to use quotation marks after my ssh command and enter the comands you want to run remotely inside of then, separated by semicolons. Also, use the up and down arrows to use the same commands you used before so you don't have to retype the same commands. 
+> Personally, I find that the fastest way to run commands remotely is to use quotation marks after my ```ssh``` command and enter the comands you want to run remotely inside of then, separated by semicolons. Also, use the up and down arrows to use the same commands you used before so you don't have to retype the same commands. 
 ![alt text](15lpt71.png)
